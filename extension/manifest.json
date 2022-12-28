@@ -4,6 +4,13 @@
     "version": "1.0.0",
     "manifest_version": 3,
     "description": "ConLexi -- TBC",
+    "action": {
+      "default_icon": {              
+        "16": "Icons/16.png"
+      },
+      "default_title": "ConLexi",   
+      "default_popup": "popup/popup.html"  
+    },
     "icons": {
       "16": "Icons/16.png"
     },
@@ -16,5 +23,6 @@
           ],
           "js": ["content.js"]
         }
-      ]
+      ],
+    "permissions": ["activeTab", "scripting"]
 }
