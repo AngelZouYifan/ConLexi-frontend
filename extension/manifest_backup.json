@@ -3,6 +3,13 @@
     "name": "React Chrome Extension",
     "version": "1.0.0",
     "manifest_version": 3,
+    "action": {
+        "default_icon": {
+            "16": "Icons/16.png"
+        },
+        "default_title": "Word Lookup",
+        "default_popup": "popup/popup.html"
+    },
     "description": "ConLexi -- TBC",
     "icons": {
       "16": "Icons/16.png"
